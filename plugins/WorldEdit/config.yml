@@ -37,7 +37,7 @@ use-inventory:
     creative-mode-overrides: false
 
 logging:
-    log-commands: false
+    log-commands: true
     file: worldedit.log
 
 super-pickaxe:
@@ -59,7 +59,7 @@ saving:
     dir: schematics
 
 files:
-    allow-symbolic-links: false
+    allow-symbolic-links: true
 
 history:
     size: 15
@@ -69,5 +69,5 @@ wand-item: 271
 shell-save-type:
 no-double-slash: false
 no-op-permissions: false
-debug: false
+debug: true
 show-help-on-first-use: true
